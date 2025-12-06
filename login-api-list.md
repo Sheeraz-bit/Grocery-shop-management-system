@@ -6,12 +6,12 @@ Handles login, 2FA, and password recovery.
 
 | Method | Endpoint | Description | Access |
 |------|---------|------------|--------|
-| POST | /api/auth/login | Login with username/password. Returns JWT for Staff; prompts 2FA for Admin. | Public |
+| POST | /api/auth/login | Login with username/password. Returns JWT for Staff; prompts 2FA for Admin. | Staff & Admin |
 | POST | /api/auth/2fa/send | Send 2FA OTP to Admin (Email/Phone). | Admin (Partial Auth) |
 | POST | /api/auth/2fa/verify | Verify Admin OTP and return final JWT. | Admin (Partial Auth) |
-| POST | /api/auth/forgot-password/initiate | Send OTP to reset forgotten credentials. | Public |
-| POST | /api/auth/forgot-password/verify | Verify OTP and get a temporary reset token. | Public |
-| POST | /api/auth/forgot-password/reset | Use reset token to change username/password. | Public |
+| POST | /api/auth/forgot-password/initiate | Send OTP to reset forgotten credentials. | Staff & Admin |
+| POST | /api/auth/forgot-password/verify | Verify OTP and get a temporary reset token. | Staff & Admin |
+| POST | /api/auth/forgot-password/reset | Use reset token to change username/password. | Staff & Admin |
 | POST | /api/auth/staff/reset/initiate | Send OTP for logged-in Staff to change their own info. | Staff |
 | POST | /api/auth/staff/reset/verify | Verify OTP and update Staff credentials. | Staff |
 
