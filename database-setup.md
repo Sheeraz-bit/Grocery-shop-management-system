@@ -16,8 +16,8 @@ Follow this guide to create the database and required tables locally.
 ## 2. Create Database
 
 ```sql
-CREATE DATABASE billing_app;
-USE billing_app;
+CREATE DATABASE inventory_app;
+USE inventory_app;
 ```
 
 ---
@@ -89,4 +89,10 @@ CREATE TABLE orders (
 
 ```sql
 SHOW TABLES;
+
+DESCRIBE users;
+DESCRIBE shop;
+DESCRIBE customer;
+DESCRIBE orders;
+
 ```
