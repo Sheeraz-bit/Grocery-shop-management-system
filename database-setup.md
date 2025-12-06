@@ -90,22 +90,3 @@ CREATE TABLE orders (
 ```sql
 SHOW TABLES;
 ```
-
----
-
-## 5. Sample Data
-
-```sql
-INSERT INTO users VALUES
-(1,'admin1','9876543210','admin@example.com','admin123','admin');
-
-INSERT INTO shop VALUES
-(1,'Pen',10.00,100,'Stationery','https://example.com/pen.png');
-```
-
----
-
-## 6. Notes
-
-- Roles: staff, admin
-- Payment: cash, upi_online
