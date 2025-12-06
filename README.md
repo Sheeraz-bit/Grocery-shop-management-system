@@ -1,4 +1,4 @@
-# Grocery-shop-management-system
+# Grocery-shop-management-system (WIP)
 
 ## Directory Structures
 ### Backend
