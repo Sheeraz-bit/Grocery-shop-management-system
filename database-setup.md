@@ -89,4 +89,10 @@ CREATE TABLE orders (
 
 ```sql
 SHOW TABLES;
+
+DESCRIBE users;
+DESCRIBE shop;
+DESCRIBE customer;
+DESCRIBE orders;
+
 ```
