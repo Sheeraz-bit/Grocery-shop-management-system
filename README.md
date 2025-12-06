@@ -59,6 +59,6 @@ enter password->
 ---
 
 ### step 3 - Setup database
-<a href="../database_setup.md">Use this guide to setup database</a>
+<a href="./database-setup.md">Use this guide to setup database</a>
 
 ---
